@@ -1,15 +1,15 @@
-jslint.vim
+jshint.vim
 =============
 
 Vim plugin and command line tool for running [JSLint][].
 
-[JSLint]: http://jslint.com/
+[JSLint]: http://jshint.com/
 
 JSLint is a handy tool that spots errors and common mistakes in
 JavaScript code.
 
-The source code for jslint.vim is hosted at
-<http://github.com/hallettj/jslint.vim>.
+The source code for jshint.vim is hosted at
+<http://github.com/hallettj/jshint.vim>.
 
 This is alpha software and is under heavy development.
 
@@ -17,7 +17,7 @@ This is alpha software and is under heavy development.
 Installation
 -----------------------
 
-- Make sure you have a JavaScript interpreter installed.  On Linux jslint.vim
+- Make sure you have a JavaScript interpreter installed.  On Linux jshint.vim
   supports Spidermonkey, Rhino, and node.js.  Spidermonkey or node.js are
   recommended because Rhino tends to have a long startup time.
 
@@ -66,21 +66,21 @@ Usage
   You can modify your `~/.vimrc` file to bind this command to a key or to turn
   off error checking by default.
 
-- (optional) Add any valid JSLint options to `~/.jslintrc` file, they will be
+- (optional) Add any valid JSLint options to `~/.jshintrc` file, they will be
   used as global options for all JavaScript files.
   For example:
 
-        /*jslint browser: true, regexp: true */
+        /*jshint browser: true, regexp: true */
         /*global jQuery, $ */
 
         /* vim: set ft=javascript: */
 
 To get a detailed report of any issues in your JavaScript file outside of Vim,
-run the `bin/jslint` executable in a terminal. For example:
+run the `bin/jshint` executable in a terminal. For example:
 
-    $ bin/jslint ftplugin/jslint/fulljslint.js
+    $ bin/jshint ftplugin/jshint/fulljshint.js
 
-You can copy `bin/jslint` into for `PATH` for easier access. The executable
+You can copy `bin/jshint` into for `PATH` for easier access. The executable
 requires that the Vim plugin is installed and also requires Ruby.
 
 To disable error highlighting altogether add this line to your `~/.vimrc` file:
@@ -91,7 +91,7 @@ To disable error highlighting altogether add this line to your `~/.vimrc` file:
 Working with quickfix
 ------------------------
 
-When automatic error checking is enabled jslint.vim will automatically display
+When automatic error checking is enabled jshint.vim will automatically display
 errors in the [quickfix][] window in addition to highlighting them.
 
 You can open and close the quickfix window with the commands `:copen` and

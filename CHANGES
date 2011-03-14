@@ -1,4 +1,9 @@
-# jslint.vim change log
+# jshint.vim change log
+
+## v0.8
+
+- Shamelessly forked https://github.com/hallettj/jslint.vim and replaced
+  jslint.js with jshint.js
 
 ## v0.7
 

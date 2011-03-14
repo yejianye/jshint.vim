@@ -6,10 +6,10 @@ require 'find'
 require 'pathname'
 
 PLUGIN = [
-  "ftplugin/javascript/jslint.vim",
-  "ftplugin/javascript/jslint/jslint-core.js",
-  "ftplugin/javascript/jslint/runjslint.js",
-  "ftplugin/javascript/jslint/runjslint.wsf",
+  "ftplugin/javascript/jshint.vim",
+  "ftplugin/javascript/jshint/jshint-core.js",
+  "ftplugin/javascript/jshint/runjshint.js",
+  "ftplugin/javascript/jshint/runjshint.wsf",
 ]
 
 files = PLUGIN
