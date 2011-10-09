@@ -3,6 +3,7 @@ jshint.vim
 This is forked from official vim plugin of jshint (https://github.com/manalang/jshint.vim)
 
 The change includes
+
 - Instead of syntax checking on every modification, this version of jshint.vim requires user 
   to call JSHintUpdate manually. If by default binding to `<leader>li`
 
